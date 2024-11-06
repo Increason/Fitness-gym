@@ -19,19 +19,42 @@ Body {
     Display: flex;
     Justify-content: space-between;
     Align-items: center;
-    Padding: 20px;
+    Padding: 10px;
     Background-color: #111;
     position: sticky;
     height: 4em;
+    top: 0;
     padding: 3em 2em 2em 3em;
 }
 
 .navbar .logo {
-    Font-size: 1.5rem;
-    Font-weight: 700;
-    font-family: jaro;
+    Font-size: 2.0rem;
+    Font-weight: 700px;
+    font-family: Montserrate;
     width: 7em;
-    height
+    margin: 0;    
+}
+
+.navbar img{
+    width: 30px;
+    height: 30px;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 8px;
+}
+
+.navbar span{
+    color: orange;
+}
+
+.navbar .nav-list{
+    margin-left: 4px;
+    align-items: left;
+    margin-left: 300px;
+    padding-left: 0px;
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
 }
 
 .navbar nav a {
@@ -41,6 +64,14 @@ Body {
     Font-weight: 400px;
 }
 
+.navbar .explore img {
+    background-color: white;
+    Padding: 10px 20px;
+    Cursor: pointer;
+    justify-content: center;
+    margin: 0px; 
+}
+
 .join-btn {
     Background-color: #ffb400;
     Color: #000;
@@ -48,6 +79,7 @@ Body {
     Padding: 10px 20px;
     Cursor: pointer;
     Border-radius: 5px;
+    justify-content: right;
 }
 
 /* Hero Section */
@@ -130,8 +162,8 @@ Body {
     Border-radius: 5px;
 }
 
-/* Media Queries */
-/* @media (max-width: 768px) {
+/* Media Queries
+@media (max-width: 768px) {
     .hero {
         Flex-direction: column;
         Text-align: center;
